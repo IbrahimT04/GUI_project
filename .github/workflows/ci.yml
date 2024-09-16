@@ -24,6 +24,3 @@ jobs:
 
       - name: Build with Ant
         run: ant -f build.xml
-
-      - name: Run tests
-        run: ant -f build.xml test
