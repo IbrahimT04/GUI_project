@@ -1,8 +1,8 @@
-# GUI Project
+# The Quality Education Goal
 
 ## Project Overview
 
-This project is a Java-based Graphical User Interface (GUI) application that provides multiple interactive frames for different functionalities. It features an organized structure of classes that handle various frames, including home, information, matching, quiz, and rating functionalities.
+This project is a Java-based Graphical User Interface (GUI) application that provides multiple interactive frames for different functionalities. It features an organized and object-oriented class structure that handles various frames, including home, information, matching, quiz, and rating functionalities.
 
 ## Features
 
@@ -30,23 +30,23 @@ To run this project, ensure you have the following installed:
 
 1. Clone the repository or download the project ZIP file.
    ```bash
-   git clone https://github.com/IbrahimT04/GUI_project.git
+   git clone https://github.com/IbrahimT04/The-Quality-Education-Goal.git
    ```
 2. Open the project in your preferred IDE.
-3. Ensure that your IDE is set up to handle Java applications with GUI components (Swing/AWT).
+3. Ensure your IDE is set up to handle Java applications with GUI components (Swing/AWT).
 
 ### Building and Running
 
 1. **Build the Project**  
    Use your IDE's build functionality or, if you are using Apache Ant, run the following command in the project directory:
    ```bash
-   ant build
+   ant clean jar
    ```
-
+ 
 2. **Run the Project**  
-   After building, run the `MainFrame.java` file, which serves as the main entry point for the application:
+   After building, run the `TheQualityEducationGoal.jar` file, which serves as the main entry point for the application:
    ```bash
-   java MainFrame
+   java -jar TheQualityEducationGoal.jar
    ```
 
 ### Application Flow
@@ -84,4 +84,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at [itariq640@gmail.com] or contribute to the repository.
+If you have any questions or suggestions, please contact me at [itariq640@gmail.com] or contribute to the repository.
