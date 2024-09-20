@@ -3,7 +3,7 @@
     <property name="src.dir" value="."/>
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
-    <property name="main-class" value="RatingFrame"/> <!-- Set to your main class file -->
+    <property name="main-class" value="MainFrame"/> <!-- Set to your main class file -->
 
     <!-- Clean task -->
     <target name="clean">
