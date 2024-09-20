@@ -1,9 +1,10 @@
 <project name="GUIProject" default="jar" basedir=".">
+
     <!-- Set properties -->
     <property name="src.dir" value="."/>
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
-    <property name="main-class" value="MainFrame"/> <!-- Set to your main class file -->
+    <property name="main-class" value="grade11summative.tariq.MainFrame"/><!-- Ensure this is the correct entry class -->
 
     <!-- Clean task -->
     <target name="clean">
@@ -29,12 +30,4 @@
         </jar>
     </target>
 
-    <!-- Run task -->
-    <target name="run" depends="compile">
-        <java classname="${main-class}" fork="true">
-            <classpath>
-                <pathelement path="${build.dir}"/>
-            </classpath>
-        </java>
-    </target>
 </project>
